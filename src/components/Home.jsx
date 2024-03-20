@@ -5,11 +5,11 @@ import Typewriter from 'typewriter-effect';
 
 export default function Home(){
     return (
-        <div className="w-full h-full">
-            <div className="flex w-full my-5 md:my-3 ">
+        <div className="w-full h-full flex flex-col gap-5 ">
+            <div className="flex w-full md:my-3 my-[8vh] ">
                 <div className="w-full flex gap-2 items-center justify-center flex-col p-1 my-auto">
-                    <h2 className="text-2xl sm:text-3xl text-purple-500 font-bold">Hii, Krishna Mahto</h2>
-                    <div className="p-1 font-semibold text-lg">
+                    <h2 className="text-2xl sm:text-3xl text-purple-500 font-bold">Krishna Mahto</h2>
+                    <div className="p-1 font-semibold md:text-lg text-sm text-center">
                         <Typewriter
                             onInit={(typewriter) => {
                                 typewriter.typeString('I am a Front End Develover .')
@@ -25,8 +25,7 @@ export default function Home(){
                         />
                     </div>
                             {/* krishnamahtosm_cse22@its.edu.in */}
-                        <p className="mx-1
-                        text-sm font-semibold">hello it's me , here you will know about my journy and my Skill and my projects .</p>
+                       
                         <button onClick={(e) => {window.location.href ='mailto:krishnamahato84044@gmail.com';}} className="button md:w-3/12 w-6/12 px-2 py-1">Hire Me</button>
                         
                     
@@ -37,6 +36,9 @@ export default function Home(){
 
                     </div>
                 </div>
+            </div>
+            <div className="w-full flex justify-center items-center">
+                <div className="px-[10vw] pt-3"><img src="https://mattfarley.ca/img/hero-devices.svg" width="full" alt="device img"/></div>
             </div>
         </div>
     )

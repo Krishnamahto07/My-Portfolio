@@ -58,6 +58,18 @@
   transition: all 1s;
   animation: scaleImage 5s linear infinite;
 }
+.hand{
+  animation: tilt-shaking 500ms linear infinite;
+}
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  40% {transform: rotate(0eg);}
+  50% { transform: rotate(0eg); }
+  60% {transform: rotate(0eg);}
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
 .user-img img{
   z-index: -9;
 }
