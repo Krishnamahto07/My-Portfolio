@@ -4,6 +4,14 @@ import { IoLogoCss3 } from "react-icons/io";
 import { SiJavascript } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { TbBrandNodejs } from "react-icons/tb";
+import { FaPython } from "react-icons/fa";
+
+
+
+
 function Skills(){
     return (
         <div className="w-full ">
@@ -16,7 +24,7 @@ function Skills(){
                     </div>
                     <div className='flex gap-5 w-2/3 flex-wrap justify-center items-center mx-auto mt-2'>
                         <div className="flex gap-2 skill-img flex-col items-center">
-                            <div className="text-7xl "><FaJava /></div>
+                            <div className="md:text-7xl text-5xl "><FaJava /></div>
                             <p className="text-3xl font-semibold">Java</p>
                         </div>
                         <div className="flex gap-2 skill-img flex-col items-center">
@@ -42,18 +50,52 @@ function Skills(){
 
                     </div>
                 </div>
-                <div>
-                    <h2>Familiar With</h2>
-                    <div></div>
-                </div>
-                <div>
-                    <h2>Till Learning</h2>
-                    <div></div>
-                </div>
-                <h2>Achivement</h2>
-                <div>
 
+                <div className="flex flex-col gap-5 ">
+                    <div className="flex flex-col gap-2 mx-auto">
+                        <h2 className="md:text-6xl text-2xl font-semibold text-purple-400 p-1">Familiar With</h2>
+                        <div className="h-1 w-full navbar "></div>
+                    </div>
+                    <div className='flex gap-7 md:w-2/3 w-10/12 flex-wrap justify-center items-center mx-auto mt-2'>
+                        <div className="flex gap-2 skill-img flex-col items-center">
+                            <div className="md:text-7xl text-5xl "><SiExpress /></div>
+                            <p className="text-3xl font-semibold">Express Js</p>
+                        </div>
+                        <div className="flex gap-2 skill-img flex-col items-center">
+                            <div className="md:text-7xl text-5xl "><SiMongodb /></div>
+                            <p className="text-3xl font-semibold">MongoDB</p>
+                        </div>
+                        <div className="flex gap-2 skill-img flex-col items-center">
+                            <div className="md:text-7xl text-5xl "><TbBrandNodejs /></div>
+                            <p className="text-3xl font-semibold">Node Js</p>
+                        </div>
+                        <div className="flex gap-2 skill-img flex-col items-center">
+                            <div className="md:text-7xl text-5xl "><FaPython /></div>
+                            <p className="text-3xl font-semibold">Python</p>
+                        </div>
+                        {/* <div className="flex gap-2 skill-img flex-col items-center">
+                            <div className="text-7xl"><SiTailwindcss /></div>
+                            <p className="text-3xl font-semibold">Tailwind</p>
+                        </div>
+                        <div className="flex gap-2 skill-img flex-col items-center">
+                            <div className="md:text-7xl text-5xl "><FaReact /></div>
+                            <p className="text-3xl font-semibold">React</p>
+                        </div> */}
+                    </div>
                 </div>
+                <div></div>
+
+                {/* <div>
+                    <h2>Till Learning</h2>
+                    <div className="h-1 w-full navbar "></div>
+                </div>
+                <div></div>
+
+                <div>
+                    <h2>Achivement</h2>
+                    <div className="h-1 w-full navbar "></div>
+                </div> */}
+                <div></div>
             </div>
         </div>
     )
