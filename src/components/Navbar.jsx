@@ -26,7 +26,7 @@ const Navbar = () =>{
         <>
         <div className="navbar text-[EDEDED] sticky top-0 z-[20] mx-auto flex w-full flex-wrap justify-between items-center p-4 border border-gray-500">
 
-            <div className="mx-9 flex items-center"><BiLogoKickstarter className="text-4xl" /><span className="text-xl ml-[-5px]">rishna</span></div>
+            <div className="sm:mx-9 mx-0 flex items-center"><BiLogoKickstarter className="text-4xl" /><span className="text-xl ml-[-5px]">rishna</span></div>
 
             <div className="w-1/3">
                 <div className="hidden md:flex justify-between">

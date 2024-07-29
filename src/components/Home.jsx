@@ -6,8 +6,8 @@ import Typewriter from 'typewriter-effect';
 export default function Home(){
     return (
         <div className="w-full h-full flex flex-col gap-5 ">
-            <div className="flex w-full md:my-3 my-[8vh] ">
-                <div className="w-full flex gap-2 items-center justify-center flex-col p-1 my-auto">
+            <div className="flex sm:flex-row flex-col sm:gap-0 gap-9 w-full md:my-3 my-[8vh] ">
+                <div className="w-full flex gap-2 items-center justify-center flex-col   p-1 my-auto">
                     <h2 className="text-2xl sm:text-3xl text-purple-500 font-bold">Krishna Mahto</h2>
                     <div className="p-1 font-semibold md:text-lg text-sm text-center">
                         <Typewriter
@@ -30,6 +30,7 @@ export default function Home(){
                         
                     
                 </div>
+
                 <div className="w-full  flex items-center justify-center">
                     <div className="navbar md:p-5 p-2 md:m-5 md:w-6/12 w-10/12 user-img">
                         <img src={profile} alt="pic" width={"full"}/>
